@@ -34,9 +34,6 @@ header h1 {
 
 header h1 a {
     font-size: 40px;
-}
-
-header a {
     color: white;
     text-decoration: none;
 }
@@ -53,9 +50,21 @@ header nav ul {
     margin: auto 0px;
 }
 
+header nav ul li {
+    margin: 0 20px;
+}
+
 header nav ul li a {
     padding: 10px 20px;
     font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
 }
 /* header section end */
 
@@ -173,8 +182,12 @@ header nav ul li a {
     padding: 0 5px 5px 5px;
     font-size: 20px;
     text-decoration: none;
+    opacity: 0.7;
 }
 
+.contact-info a:hover {
+    opacity: 1.0;
+}
 
 
 /* contact section end */
