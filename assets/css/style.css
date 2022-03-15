@@ -16,6 +16,7 @@ body {
     background-color: var(--tertiary-color);
 }
 
+/* header section start */
 header {
     padding: 15px 30px 15px 15px;
     background-color: var(--primary-color);
@@ -50,13 +51,13 @@ header nav ul {
     align-items: center;
     list-style: none;  
     margin: auto 0px;
-
 }
 
 header nav ul li a {
     padding: 10px 20px;
     font-size: 20px;
 }
+/* header section end */
 
 .sections {
     display: flex;
@@ -128,6 +129,30 @@ header nav ul li a {
 }
 
 /* project section end */
+
+/* contact section start */
+
+.contact-info {
+
+}
+
+.contact-info ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-info a {
+    border-bottom: 4px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0 5px 5px 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* contact section end */
 
 .space-between {
     justify-content: space-between;
