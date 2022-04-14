@@ -135,14 +135,16 @@ header nav ul li a:hover {
 
 .other-projects {
     display: flex;
-    height: 150px;
     margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project {
-    width: 50%;
+    width: 49%;
     border: solid 5px var(--secondary-color);
     position: relative;
+    height: 150px;
 }
 
 .project-info {
@@ -226,12 +228,7 @@ header nav ul li a:hover {
     opacity: 1.0;
 }
 
-
 /* contact section end */
-
-.margin-right-project {
-    margin-right: 10px;
-}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1000px) {
@@ -295,4 +292,27 @@ header nav ul li a:hover {
         margin-right: 10px;
     }
 
+    .first-project {
+        height: 150px;
+    }
+
+    .other-projects {
+        margin-bottom: 0px;
+    }
+
+    .project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .project-img {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
 }
