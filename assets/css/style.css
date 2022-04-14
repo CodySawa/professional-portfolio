@@ -140,9 +140,8 @@ header nav ul li a:hover {
 }
 
 .project {
-    width: 100%;
+    width: 50%;
     border: solid 5px var(--secondary-color);
-    float: left;
     position: relative;
 }
 
@@ -210,6 +209,10 @@ header nav ul li a:hover {
     padding: 40px 0;
 }
 
+.contact-info li {
+    margin-bottom: 20px;
+}
+
 .contact-info a {
     border-bottom: 4px solid var(--primary-color);
     color: var(--primary-color);
@@ -275,10 +278,21 @@ header nav ul li a:hover {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 786px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style: none;  
+        margin: auto 0px;
+        justify-content: space-between;
+    }
     
-}
+    header nav ul li {
+        margin: 0px;
+    }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
+    .contact-info li {
+        margin-right: 10px;
+    }
 
 }
