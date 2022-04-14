@@ -109,13 +109,22 @@ header nav ul li a:hover {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 20px;
-    margin: 0 100px 20px 0;
+    padding: 10px;
+    margin: 0 20px 20px 0;
     font-size: 20px;
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 
+.hero-subtitle img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
 
 /* hero section end */
 
@@ -293,7 +302,7 @@ header nav ul li a:hover {
     }
 
     .first-project {
-        height: 150px;
+        height: 300px;
     }
 
     .other-projects {
@@ -310,9 +319,4 @@ header nav ul li a:hover {
         -webkit-filter: blur(0px);
     }
 
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-    
 }
